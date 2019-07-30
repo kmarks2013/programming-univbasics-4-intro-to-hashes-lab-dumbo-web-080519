@@ -17,15 +17,14 @@ def pioneer
 end
 
 def id_generator
-  id_generator {
+  id_generator = {
     id: 12
   }
 end
 
 def my_hash_creator(key, value)
-  my_hash_creator{
-    key: value
-  }
+
+end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
